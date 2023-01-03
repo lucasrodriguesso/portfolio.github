@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="website icon" type="png" href="logo.png">
+        <title>Road to master css</title>
+        <link href="n3.css" rel="stylesheet"/>
+    </head>
+    <body>  
+        <header>
+            <div>
+                <ul>
+                    <img id="logo" src="logo.png"/>
+                    <li id="titre">Lucas Rodrigues</li>
+                    <li><a href="#filter">CV</a></li>
+                    <li><a href="#overlay">ma présentation</a></li> 
+                    <li><a href="slam et reseaux.html">plus d'informations</a></li> 
+                    <li><a href="#blend">retours</a></li>    
+                </ul>
+          </div>
+        </header>
+        <section id="blend">
+            <nav>
+        <div id="prems"><h1>Etudiant en BTS SIO</h1></div>
+        </nav>
+        <a href="#ancre">
+        <div class="center-con">
+    
+            <div class="round">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+        </div>
+        </a>
+        </section>
+        <section id="overlay">
+          
+            
+            <div class ="box">
+                
+            <div class="one">
+                <p><br><br><br><br><br><a id="ancre">Je m'appel Lucas Rodrigues,<br>je suis un élève en BTS SIO,<br>je suis passionné par le basket <br>mais surtous
+                     l'informatique.J'ai 18 ans<br> sur ces deux années de Bts Sio <br>nous avons différent 1 objectifs<br>de crée son propre site internet <br></p></a>
+                    <div class="titre"><h3>Qui suis je</h3></div>
+            </div>
+            <div class="two">
+                
+                <br><br><br><br><BR>Reconnu par l’Etat, le BTS SIO a <br>remplacé depuis 2011 le BTS IG <br>(Informatique et gestion).
+                     <br>Cette nouvelle formule entend s’adaptera<br> aux besoins constatés sur le marché du<br> travail de  profils qualifiés en TIC 
+                    <br> (Technologies<br> d’Information Communication). Pour<br>remplir cet objectif particulier<br>elle s’est déclinée en deux 
+                     spécialités<br> distinctes : BTS SIO SISR et BTS SIO<br>SLAM. <BR><br>
+                        <div class="map"><h3>Le BTS SIO</h3></div> 
+                        
+                                                  
+        </div>   
+       
+                  
+        </section>
+        <section id="filter">
+            <img id="cv" src="capturev3.png">
+            <div class="wrapper">
+                <a class="button" href="cv lucas rodrigues.pdf">téléchargez mon cv</a>
+            </div>
+            
+            <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+            <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                        <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                    </filter>
+                </defs>
+            </svg>
+            
+        </section>
+    </body>
+</html>

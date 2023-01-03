@@ -1,0 +1,255 @@
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+a  {
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    width: 2100px;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: -8px;
+    z-index: 1;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: 18px;
+    margin-left: 450px;
+    font-weight: bold;
+}
+
+
+
+body{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  background-color: rgb(48, 45, 45);
+}
+#article1{
+  margin-top: 60px;
+  height: 620px;
+  width: 1500px;
+  padding-top: 40px;
+  padding-right: 9px;
+  box-shadow: 
+  0 0 10vw 0vw #b7b7c9,
+  0 0 2vw 0.4vw #f8f8f8,
+
+  inset 0 0 .5vw 0.2vw #333342,
+  inset 0 0 0.2vw 0.2vw #4b4b53,
+  inset 0 0 0.25vw 0.2vw #f8f8f8;
+}
+#article2{
+  margin-top: 10px;
+  height: 700px;
+  width: 1500px;
+  border:solid rgb(255, 255, 255);
+  background-color: white;
+  box-shadow: 
+  0 0 10vw 0vw #b7b7c9,
+  0 0 2vw 0.4vw #f8f8f8,
+
+  inset 0 0 .5vw 0.2vw #333342,
+  inset 0 0 0.2vw 0.2vw #4b4b53,
+  inset 0 0 0.25vw 0.2vw #f8f8f8;
+}
+
+
+#texte1{
+  font-size: large;
+  color: white;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.sisr{
+  color: white;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slam{
+  flex: 1 1 auto;
+  left: 0;
+  color: white;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.optiongene{
+  display: flex;
+  margin-left: 10px;
+  margin-top:0px ;
+}
+h1,h2{
+  margin-top: 5%;
+  margin-left: 1px;
+  text-align: center;
+  
+}
+
+.sio{
+  margin-left: 10px ;
+  font-size: 0.9em;
+  color: white;
+}
+
+:root {
+  --border-size: 0.100rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --font-family: monospace;
+  --color-primary: rgb(255, 255, 255);
+  --color-secondary: #81667d;
+  --color-tertiary: dodgerblue;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --space: 0.9rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.multi-button {
+  display: flex;
+  width: 70%;
+  box-shadow: var(--shadow) 4px 4px;
+  margin-left: 15%;
+  margin-top: 7%;
+}
+
+.multi-button button {
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 1.125)
+    var(--space)
+    var(--space);
+  border: var(--border-size) solid black;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-transform: lowercase;
+  text-shadow: var(--shadow) 2px 2px;
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid black;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) dashed var(--color-primary);
+  outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}
+
+.image-css{
+  width: 20%;
+  height: 50%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 55px 30px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  position: relative; left:2%; top:5%;
+
+
+}
+
+.image-css{
+  width: 20%;
+  height: 52%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 55px 30px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  position: relative; left:2%; top:29%;
+
+
+}
+.image-h{
+  width: 20%;
+  height: 52%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 55px 30px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  position: relative; left:39%; top:-20%;
+
+
+}
+.image-c{
+  width: 20%;
+  height: 52%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 55px 30px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  position: relative; left:78%; top:-70%;
+
+
+}
